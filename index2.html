@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang = "en-GB">
+ <head>
+    <meta charset="utf-8" />
+
+    <meta name = "description" content = "Official webpage of PRB Digital Marketing">
+
+    <meta name = "keywords" content = "digital marketing, programming, social media, seo, blogging">
+
+    <meta name = "author" content = "Patrick Rolincin Bambi">
+
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+    <title>PRB Digital Marketing</title>                         
+    <link rel = "stylesheet" href = "styles2.css" />
+    <link rel = "icon" href = "PRB DM Icon.ico" sizes = "32x32" />                             <!--Reference to external icon file-->                 
+ </head>
+ <body>
+  <header>
+   <h1><div><img src = "Banner.gif" /></div></h1>
+  </header>
+
+  <div class = "Subheader"><h2><img src = "Download Icon.gif" />Scroll Down the Interactive Page<img src = "Download Icon.gif" /></h2></div>
+  
+  <div id = "Layer">
+   <img class = "Loop" src = "Loop.gif" />
+   <img class = "Star" src = "Star.gif" />
+   <img class = "Clouds" src = "Clouds.gif" />
+   <img id = "Valley" src = "Valley.gif" />
+   <img id = "Ground" src = "Ground.gif" />
+   <div class = "Section">
+    <div>                                     
+     <h2>Social Media Marketing</h2>
+     <img src = "Social Media Screenshot.gif" />
+     <a href = "https://www.youtube.com/@PRBDigitalMarketing" target = "_blank">
+      <img src = "YT Icon.gif" /> <p><strong>youtube.com/@PRBDigitalMarketing</strong></p></a>
+    </div>
+
+    <div>                                     
+     <h2>Website Marketing</h2>
+     <h3>WordPress</h3>
+     <img src = "Lotus Home Screenshot.gif" />
+     <a href = "https://prblotuscosmetics.wordpress.com/" target = "_blank">
+      <img src = "Lotus Icon.gif" /> <p><strong>prblotuscosmetics.wordpress.com/</strong></p></a><br>
+     <img src = "Lotus Range Screenshot.gif" />
+     <a href = "https://prblotuscosmetics.wordpress.com/products/" target = "_blank">
+      <img src = "Lotus Icon.gif" /> <p><strong>prblotuscosmetics.wordpress.com/products/</strong></p></a><br>
+     <h3>Raw Build - HTML, CSS & JavaScript</h3>
+     <img src = "WeightWatch Screenshot.gif" />
+     <a href = "https://p-r-b.github.io/WeightWatch/" target = "_blank">
+      <img src = "WeightWatch Icon.gif" /> <p><strong>p-r-b.github.io/WeightWatch/</strong></p></a>
+    </div>
+
+    <div>                                     
+     <h2>Email Marketing</h2>
+     <img src = "Mailchimp Screenshot.gif" />
+    </div>
+
+    <div>                                   
+     <h2>Search Engine Optimisation</h2>
+     <h3>Meta & Schema Tags</h3>
+     <img src = "SEO Screenshot.gif" /><br>
+     <h3>Trending Keywords</h3>
+     <img src = "Trending Keywords Screenshot.gif" />
+    </div>
+
+    <div>                                   
+     <h2>Programming - Javascript</h2>
+     <img src = "Chicken Crossing Screenshot.gif" />
+     <a href = "https://p-r-b.github.io/Video_Game/" target = "_blank">
+      <img src = "Chicken Crossing Icon.gif" /> <p><strong>p-r-b.github.io/Video_Game/</strong></p></a><br>
+      <div class = "Video" itemscope itemtype = "http://schema.org/VideoObject">
+       <meta itemprop = "name" content = "Chicken Crossing - Gameplay Walkthrough">
+       <meta itemprop = "description" content = "Watch the official Chicken Crossing gameplay demo - a browser-based 2-D platform game.">
+       <meta itemprop = "thumbnailUrl" content = "https://p-r-b.github.io/Video_Game/Banner.gif">
+       <meta itemprop = "uploadDate" content = "2025-05-26">
+       <meta itemprop = "embedUrl" content = "https://www.youtube.com/embed/7x8xMXItH_g">
+       <meta itemprop = "duration" content = "PT19M23S"> <!-- 19 min 23 sec -->
+       <iframe width = "800" height = "450" src = "https://www.youtube.com/embed/7x8xMXItH_g?si=4Y8lxWFBdVlj5fn_"
+               title = "Chicken Crossing - Gameplay Walkthrough" frameborder = "0"
+               allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               referrerpolicy = "strict-origin-when-cross-origin" allowfullscreen itemprop = "contentUrl"                   >
+       </iframe>
+      </div>
+      <a href = "Chicken Crossing - The Download.zip">
+         <img src = "Download Icon.gif" /><p><strong>Download Chicken Crossing (9.55MB)</strong></p></a>
+    </div>
+
+    <div>                                     
+     <h2>Blogging</h2>
+     <img src = "Lotus Blogs Screenshot.gif" />
+     <a href = "https://prblotuscosmetics.wordpress.com/blog/" target = "_blank">
+      <img src = "Lotus Icon.gif" /> <p><strong>prblotuscosmetics.wordpress.com/blog/</strong></p></a>
+    </div>
+   </div>
+  </div>
+
+  <script>
+   setInterval(Touchdown, 16);
+
+   let root = document.documentElement; root.style.setProperty("--scrolltop", root.scrollTop);
+   document.addEventListener("scroll", evt => {
+    if (document.getElementById("Ground").getBoundingClientRect().y + (668/1366)*window.innerWidth > window.innerHeight)
+      {root.style.setProperty("--scrolltop", root.scrollTop)}
+    else {root.scrollTop -= 10; if (root.scrollTop < parseFloat(getComputedStyle(root).getPropertyValue("--scrolltop"))) 
+            {root.style.setProperty("--scrolltop", root.scrollTop)}
+         }                                    });
+
+   function updateScale() {const W = window.innerWidth; document.documentElement.style.setProperty('--W', W);
+    const H = window.innerHeight; document.documentElement.style.setProperty('--H', H)
+                          }
+
+   var G;                       
+   function Touchdown() {
+    if (document.getElementById("Valley").getBoundingClientRect().y + 0.5*document.getElementById("Valley").height > window.innerHeight)
+      {G = document.getElementById("Valley").getBoundingClientRect().y + document.getElementById("Valley").height}
+    else {G = 3*document.getElementById("Valley").getBoundingClientRect().y + 2*document.getElementById("Valley").height - 2*window.innerHeight};
+    document.documentElement.style.setProperty('--G', G)
+                        }
+
+   window.addEventListener('resize', updateScale); updateScale();
+  </script>
+ </body>
+</html>
