@@ -29,7 +29,7 @@ h1 img {width: 100%; height: auto}
 .Logo {position: absolute; bottom: 0%}
 
 .Section {min-height: calc(var(--W)*10px); max-height: calc(var(--W)*10px); display: flex; flex-direction: column; 
-          justify-content: space-between; translate: 0px calc((var(--W) - var(--scrolltop))*1px)                  }
+          justify-content: space-between; translate: 0px calc((var(--W) - var(--scrolltop))*1px*var(--W)/var(--H))}
 .Section > div {background-size: cover; box-sizing: border-box; max-width: 800px;
                 border-style: solid; background: linear-gradient(to right, rgba(0, 255, 255, 0.5) 20%, rgba(100, 255, 100, 0.5) 80%); 
                 padding: 10px 5% 10px 5%; margin: auto; border-width: 0; margin-bottom: 50px; width: inherit; position: relative                                    }
