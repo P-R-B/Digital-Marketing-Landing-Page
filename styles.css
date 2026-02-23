@@ -51,13 +51,13 @@ h2 {padding-left: 3px; padding-right: 3px; color: white; background-color: blue;
                justify-content: space-evenly                                                                                                }
 
 
-h3 {background: linear-gradient(to bottom, rgb(0, 150, 255) 20%, rgb(0, 0, 130) 40%, rgb(0, 70, 0) 60%, rgb(0, 255, 0) 80%);
+h3 {background: linear-gradient(to bottom, rgb(0, 75, 150) 20%, rgb(0, 0, 100) 40%, rgb(0, 50, 0) 60%, rgb(0, 200, 0) 80%);
     -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent;
     -webkit-text-stroke-color: white; -webkit-text-stroke-width: 0.01em                                                              }  
 .Section div:hover h3{
-    background: linear-gradient(to bottom, rgb(255, 0, 0) 20%, rgb(100, 0, 0) 40%, rgb(100, 100, 0) 60%, rgb(255, 255, 0) 80%);
+    background: linear-gradient(to bottom, rgb(0, 50, 0) 20%, rgb(50, 150, 0) 40%, rgb(150, 150, 0) 60%, rgb(255, 255, 0) 80%);
     -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent;
-    -webkit-text-stroke-color: purple                                                                                                 }                 
+    -webkit-text-stroke-color: black                                                                                                  }                 
 
 .Section img, iframe {max-width: 100%}
 
